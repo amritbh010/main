@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+
+
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#geeks{
+    background-color: rgb(1, 131, 1);
+    padding: 70px;
+    color: white;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    
+
+}
+#geeks h1{
+    font-size: 55px;
+}
+#nav{
+    display: flex;
+    background-color: black;
+    
+}
+#nav_{
+    margin: 15px 25px;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+}
+#nav_ a{
+    text-decoration: none;
+    color: white;
+}
+#content{
+ display: flex;
+ 
+
+ align-items: center;
+ justify-content: space-between;
+ background-color: #ffffff;
+}
+#id_{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+#id_ h2{
+    padding: 30px;
+    color: green;
+    font-size: 36px;
+    padding-left: 0px;
+}
+
+#footer{
+    margin-top: 140px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#footer div{
+    width: 100%;
+    background-color: gray;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center  ;
+    justify-content: center;
+    color: green;
+    margin-bottom: 0px;
+}
